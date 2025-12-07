@@ -1,0 +1,432 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Laptops",
+      "products": [
+        {
+          "id": "L-001",
+          "name": "ASUS TUF Gaming F15",
+          "brand": "ASUS",
+          "price": 75000,
+          "discount": 10,
+          "salePrice": 67500,
+          "image": "./laptopImages/lap1.png",
+          "rating": 4.5,
+          "stock": 12,
+          "description": "Powerful gaming laptop with i5 CPU, RTX 3050 GPU, and 144Hz display."
+        },
+        {
+          "id": "L-002",
+          "name": "MacBook Air M2",
+          "brand": "Apple",
+          "price": 110000,
+          "discount": 5,
+          "salePrice": 104500,
+          "image": "./laptopImages/lap2.png",
+          "rating": 4.8,
+          "stock": 5,
+          "description": "Lightweight laptop with M2 chip, 18-hour battery life, and premium build."
+        },
+        {
+          "id": "L-003",
+          "name": "HP Pavilion Aero",
+          "brand": "HP",
+          "price": 72000,
+          "discount": 8,
+          "salePrice": 66240,
+          "image": "./laptopImages/lap3.png",
+          "rating": 4.4,
+          "stock": 14,
+          "description": "Ultra-light laptop with Ryzen 5 processor and long battery life."
+        },
+        {
+          "id": "L-004",
+          "name": "Dell Inspiron 15",
+          "brand": "Dell",
+          "price": 55000,
+          "discount": 12,
+          "salePrice": 48400,
+          "image": "./laptopImages/lap4.png",
+          "rating": 4.2,
+          "stock": 20,
+          "description": "Everyday use laptop with i5 processor and Full HD display."
+        },
+        {
+          "id": "L-005",
+          "name": "Lenovo IdeaPad Slim 5",
+          "brand": "Lenovo",
+          "price": 68000,
+          "discount": 10,
+          "salePrice": 61200,
+          "image": "./laptopImages/lap5.png",
+          "rating": 4.3,
+          "stock": 10,
+          "description": "Sleek laptop with Ryzen 7 performance and fast SSD storage."
+        },
+        {
+          "id": "L-006",
+          "name": "Acer Aspire 7",
+          "brand": "Acer",
+          "price": 60000,
+          "discount": 7,
+          "salePrice": 55800,
+          "image": "./laptopImages/lap6.png",
+          "rating": 4.4,
+          "stock": 18,
+          "description": "Budget-friendly performance laptop with GTX 1650 graphics."
+        },
+        {
+          "id": "L-007",
+          "name": "MSI Modern 14",
+          "brand": "MSI",
+          "price": 58000,
+          "discount": 9,
+          "salePrice": 52780,
+          "image": "./laptopImages/lap2.png",
+          "rating": 4.1,
+          "stock": 16,
+          "description": "Stylish and portable laptop suitable for students and professionals."
+        },
+        {
+          "id": "L-008",
+          "name": "Samsung Galaxy Book2",
+          "brand": "Samsung",
+          "price": 98000,
+          "discount": 11,
+          "salePrice": 87220,
+          "image": "./laptopImages/lap5.png",
+          "rating": 4.6,
+          "stock": 6,
+          "description": "Premium ultrabook with AMOLED display and fast multitasking."
+        },
+        {
+          "id": "L-009",
+          "name": "Realme Book Prime",
+          "brand": "Realme",
+          "price": 53000,
+          "discount": 10,
+          "salePrice": 47700,
+          "image": "./laptopImages/lap1.png",
+          "rating": 4.3,
+          "stock": 25,
+          "description": "Slim laptop with 2K display and great build quality."
+        },
+        {
+          "id": "L-010",
+          "name": "Infinix INBook X2 Plus",
+          "brand": "Infinix",
+          "price": 38000,
+          "discount": 6,
+          "salePrice": 35720,
+          "image": "./laptopImages/lap3.png",
+          "rating": 4.0,
+          "stock": 30,
+          "description": "Affordable laptop with metal body and smooth performance."
+        },
+        {
+          "id": "L-010",
+          "name": "ASUS TUF Gaming F15",
+          "brand": "ASUS",
+          "price": 75000,
+          "discount": 10,
+          "salePrice": 67500,
+          "image": "./laptopImages/lap1.png",
+          "rating": 4.5,
+          "stock": 12,
+          "description": "Powerful gaming laptop with i5 CPU, RTX 3050 GPU, and 144Hz display."
+        },
+        {
+          "id": "L-011",
+          "name": "MacBook Air M2",
+          "brand": "Apple",
+          "price": 110000,
+          "discount": 5,
+          "salePrice": 104500,
+          "image": "./laptopImages/lap2.png",
+          "rating": 4.8,
+          "stock": 5,
+          "description": "Lightweight laptop with M2 chip, 18-hour battery life, and premium build."
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "Mobiles",
+      "products": [
+        {
+          "id": "M-001",
+          "name": "iPhone 14",
+          "brand": "Apple",
+          "price": 67999,
+          "discount": 7,
+          "salePrice": 63200,
+          "image": "./mobileImages/mob1.png",
+          "rating": 4.7,
+          "stock": 15,
+          "description": "Powerful smartphone with A15 chip and excellent camera."
+        },
+        {
+          "id": "M-002",
+          "name": "Samsung Galaxy S23",
+          "brand": "Samsung",
+          "price": 79999,
+          "discount": 10,
+          "salePrice": 71999,
+          "image": "./mobileImages/mob2.png",
+          "rating": 4.8,
+          "stock": 10,
+          "description": "Flagship device with Snapdragon 8 Gen 2 processor."
+        },
+        {
+          "id": "M-003",
+          "name": "OnePlus 11R",
+          "brand": "OnePlus",
+          "price": 44999,
+          "discount": 8,
+          "salePrice": 41399,
+          "image": "./mobileImages/mob3.png",
+          "rating": 4.6,
+          "stock": 20,
+          "description": "Premium midrange phone with fast charging and AMOLED display."
+        },
+        {
+          "id": "M-004",
+          "name": "Realme GT Neo 3",
+          "brand": "Realme",
+          "price": 38999,
+          "discount": 9,
+          "salePrice": 35489,
+          "image": "./mobileImages/mob4.png",
+          "rating": 4.4,
+          "stock": 18,
+          "description": "Fast performance with 150W charging."
+        },
+        {
+          "id": "M-005",
+          "name": "Redmi Note 13 Pro",
+          "brand": "Xiaomi",
+          "price": 24999,
+          "discount": 10,
+          "salePrice": 22499,
+          "image": "./mobileImages/mob5.png",
+          "rating": 4.3,
+          "stock": 25,
+          "description": "Value-for-money phone with 200MP camera."
+        },
+        {
+          "id": "M-006",
+          "name": "Vivo V29",
+          "brand": "Vivo",
+          "price": 32999,
+          "discount": 6,
+          "salePrice": 31099,
+          "image": "./mobileImages/mob2.png",
+          "rating": 4.4,
+          "stock": 22,
+          "description": "Stylish phone with great selfie camera."
+        },
+        {
+          "id": "M-007",
+          "name": "Oppo Reno 10",
+          "brand": "Oppo",
+          "price": 33999,
+          "discount": 7,
+          "salePrice": 31619,
+          "image": "./mobileImages/mob4.png",
+          "rating": 4.3,
+          "stock": 19,
+          "description": "Premium curved display and portrait camera."
+        },
+        {
+          "id": "M-008",
+          "name": "Poco X6 Pro",
+          "brand": "Poco",
+          "price": 26999,
+          "discount": 9,
+          "salePrice": 24569,
+          "image": "./mobileImages/mob1.png",
+          "rating": 4.5,
+          "stock": 28,
+          "description": "High performance Dimensity CPU at an affordable price."
+        },
+        {
+          "id": "M-009",
+          "name": "Nothing Phone 2",
+          "brand": "Nothing",
+          "price": 44999,
+          "discount": 5,
+          "salePrice": 42749,
+          "image": "./mobileImages/mob5.png",
+          "rating": 4.6,
+          "stock": 12,
+          "description": "Unique transparent design with Glyph lighting."
+        },
+        {
+          "id": "M-010",
+          "name": "Moto Edge 40",
+          "brand": "Motorola",
+          "price": 29999,
+          "discount": 10,
+          "salePrice": 26999,
+          "image": "./mobileImages/mob2.png",
+          "rating": 4.4,
+          "stock": 26,
+          "description": "Slim and lightweight smartphone with curved display."
+        },
+        {
+          "id": "M-011",
+          "name": "OnePlus 11R",
+          "brand": "OnePlus",
+          "price": 44999,
+          "discount": 8,
+          "salePrice": 41399,
+          "image": "./mobileImages/mob3.png",
+          "rating": 4.6,
+          "stock": 20,
+          "description": "Premium midrange phone with fast charging and AMOLED display."
+        },
+        {
+          "id": "M-012",
+          "name": "Realme GT Neo 3",
+          "brand": "Realme",
+          "price": 38999,
+          "discount": 9,
+          "salePrice": 35489,
+          "image": "./mobileImages/mob4.png",
+          "rating": 4.4,
+          "stock": 18,
+          "description": "Fast performance with 150W charging."
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": "Accessories",
+      "products": [
+        {
+          "id": "A-001",
+          "name": "Apple 20W Charger",
+          "brand": "Apple",
+          "price": 1900,
+          "discount": 5,
+          "salePrice": 1805,
+          "image": "./otherImages/acharger.png",
+          "rating": 4.8,
+          "stock": 30,
+          "description": "Fast Type-C charging adapter for iPhones."
+        },
+        {
+          "id": "A-002",
+          "name": "Boat Airdopes 141",
+          "brand": "Boat",
+          "price": 1499,
+          "discount": 12,
+          "salePrice": 1319,
+          "image": "./otherImages/airpod.png",
+          "rating": 4.3,
+          "stock": 40,
+          "description": "Wireless earbuds with long battery backup."
+        },
+        {
+          "id": "A-003",
+          "name": "Samsung 25W Charger",
+          "brand": "Samsung",
+          "price": 1299,
+          "discount": 7,
+          "salePrice": 1208,
+          "image": "./otherImages/scharger.png",
+          "rating": 4.6,
+          "stock": 35,
+          "description": "Fast charger for all Samsung smartphones."
+        },
+        {
+          "id": "A-004",
+          "name": "Sony WH-1000XM4",
+          "brand": "Sony",
+          "price": 24990,
+          "discount": 10,
+          "salePrice": 22491,
+          "image": "./otherImages/headphone.png",
+          "rating": 4.9,
+          "stock": 6,
+          "description": "Industry-leading noise cancelling headphones."
+        },
+        {
+          "id": "A-005",
+          "name": "Sandisk 128GB Pendrive",
+          "brand": "Sandisk",
+          "price": 899,
+          "discount": 8,
+          "salePrice": 827,
+          "image": "./otherImages/pendrive.png",
+          "rating": 4.2,
+          "stock": 50,
+          "description": "High-speed USB 3.0 pendrive with compact design."
+        },
+        {
+          "id": "A-006",
+          "name": "Logitech M221 Mouse",
+          "brand": "Logitech",
+          "price": 999,
+          "discount": 6,
+          "salePrice": 939,
+          "image": "./otherImages/mouse.png",
+          "rating": 4.4,
+          "stock": 32,
+          "description": "Silent wireless mouse with long battery life."
+        },
+        {
+          "id": "A-007",
+          "name": "HP K160 Keyboard",
+          "brand": "HP",
+          "price": 799,
+          "discount": 10,
+          "salePrice": 719,
+          "image": "./otherImages/keyboard.png",
+          "rating": 4.1,
+          "stock": 34,
+          "description": "Durable keyboard for home and office use."
+        },
+        {
+          "id": "A-008",
+          "name": "Anker Powerbank 20,000mAh",
+          "brand": "Anker",
+          "price": 2999,
+          "discount": 9,
+          "salePrice": 2729,
+          "image": "./otherImages/powerbank.png",
+          "rating": 4.7,
+          "stock": 22,
+          "description": "High-capacity powerbank with fast charging."
+        },
+        {
+          "id": "A-009",
+          "name": "JBL Go 3 Speaker",
+          "brand": "JBL",
+          "price": 3499,
+          "discount": 15,
+          "salePrice": 2974,
+          "image": "./otherImages/speaker.png",
+          "rating": 4.6,
+          "stock": 18,
+          "description": "Portable Bluetooth speaker with punchy sound."
+        },
+        {
+          "id": "A-010",
+          "name": "MI 2A Data Cable",
+          "brand": "Xiaomi",
+          "price": 299,
+          "discount": 5,
+          "salePrice": 284,
+          "image": "./otherImages/datacable.png",
+          "rating": 4.3,
+          "stock": 60,
+          "description": "Durable fast charging cable for Android devices."
+        }
+      ]
+    }
+  ]
+}
