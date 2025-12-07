@@ -1,15 +1,25 @@
-/* 🔼 Google Fonts MUST be the first thing */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-/* 🔼 Then import Tailwind */
 @import "tailwindcss";
 
-/* 🔼 Then define theme variables */
 @theme {
   --font-flipkart: "Inter", sans-serif;
 }
 
-/* 🔽 Now your custom styles */
 body {
   font-family: var(--font-flipkart);
+}
+
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none; 
+}
+
+body {
+  -ms-overflow-style: none;
 }

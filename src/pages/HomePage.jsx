@@ -1,31 +1,39 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import ProductCard from "../components/product/ProductCard";
+import Search from "../components/common/Search";
+import {DataContext} from "../context/DataContext"
 
 const HomePage = () => {
-  const [product, setProduct] = useState(null);
-  useEffect(() => {
-    const fetchProduct = async () => {
-      const res = await fetch("/data/product.json");
-      const data = await res.json();
-      setProduct(data);
-      console.log(data);
-    };
-    fetchProduct();
-  }, []);
+  const { product } = useContext(DataContext);
+
+  const [searchItem, setSearchItem] = useState("");
+ if (!product) {
+    return <p className="text-center p-10 text-gray-600">Loading products...</p>;
+  }
+
+  const filteredCategories = product ? product.categories.map((category) => ({...category, products: category.products.filter((item) => item.name.toLowerCase().includes(searchItem.toLowerCase())),})) : [];
+    
+
   return (
-    <div className=" w-[80%] m-auto">
-      {product?.categories?.map((cat) => (
-        <div key={cat.id} className="p-5">
-          <h2 className="text-2xl font-bold">{cat.name}</h2>
-          <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-10 mt-5">
-            {cat.products?.map((item) => (
-              <ProductCard item={item} />
-            ))}
-          </div>
-        </div>
-      ))}
+    <div className="bg-gray-100">    
+      <Search onSearch={setSearchItem} />
+      <div className=" w-[80%] m-auto">
+        {filteredCategories.map(
+          (cat) =>
+            cat.products.length > 0 && (
+              <div key={cat.id} className="p-5">
+                <h2 className="text-2xl font-bold">{cat.name}</h2>
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 mt-5">
+                  {cat.products.map((item) => (
+                    <ProductCard key={item.id} item={item} />
+                  ))}
+                </div>
+              </div>
+            )
+        )}
+      </div>
     </div>
   );
-}; 
+};
 
 export default HomePage;

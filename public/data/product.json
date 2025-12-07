@@ -125,7 +125,7 @@
           "description": "Affordable laptop with metal body and smooth performance."
         },
         {
-          "id": "L-010",
+          "id": "L-011",
           "name": "ASUS TUF Gaming F15",
           "brand": "ASUS",
           "price": 75000,
@@ -137,7 +137,7 @@
           "description": "Powerful gaming laptop with i5 CPU, RTX 3050 GPU, and 144Hz display."
         },
         {
-          "id": "L-011",
+          "id": "L-012",
           "name": "MacBook Air M2",
           "brand": "Apple",
           "price": 110000,
