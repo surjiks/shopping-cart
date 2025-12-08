@@ -13,8 +13,17 @@
           "salePrice": 67500,
           "image": "./laptopImages/lap1.png",
           "rating": 4.5,
-          "stock": 12,
-          "description": "Powerful gaming laptop with i5 CPU, RTX 3050 GPU, and 144Hz display."
+          "stock": 0,
+          "description": "Powerful gaming laptop with i5 CPU, RTX 3050 GPU, and 144Hz display.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "L-002",
@@ -26,7 +35,16 @@
           "image": "./laptopImages/lap2.png",
           "rating": 4.8,
           "stock": 5,
-          "description": "Lightweight laptop with M2 chip, 18-hour battery life, and premium build."
+          "description": "Lightweight laptop with M2 chip, 18-hour battery life, and premium build.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "L-003",
@@ -38,7 +56,16 @@
           "image": "./laptopImages/lap3.png",
           "rating": 4.4,
           "stock": 14,
-          "description": "Ultra-light laptop with Ryzen 5 processor and long battery life."
+          "description": "Ultra-light laptop with Ryzen 5 processor and long battery life.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "L-004",
@@ -50,7 +77,16 @@
           "image": "./laptopImages/lap4.png",
           "rating": 4.2,
           "stock": 20,
-          "description": "Everyday use laptop with i5 processor and Full HD display."
+          "description": "Everyday use laptop with i5 processor and Full HD display.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "L-005",
@@ -62,7 +98,16 @@
           "image": "./laptopImages/lap5.png",
           "rating": 4.3,
           "stock": 10,
-          "description": "Sleek laptop with Ryzen 7 performance and fast SSD storage."
+          "description": "Sleek laptop with Ryzen 7 performance and fast SSD storage.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "L-006",
@@ -74,7 +119,16 @@
           "image": "./laptopImages/lap6.png",
           "rating": 4.4,
           "stock": 18,
-          "description": "Budget-friendly performance laptop with GTX 1650 graphics."
+          "description": "Budget-friendly performance laptop with GTX 1650 graphics.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "L-007",
@@ -86,7 +140,16 @@
           "image": "./laptopImages/lap2.png",
           "rating": 4.1,
           "stock": 16,
-          "description": "Stylish and portable laptop suitable for students and professionals."
+          "description": "Stylish and portable laptop suitable for students and professionals.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "L-008",
@@ -98,7 +161,16 @@
           "image": "./laptopImages/lap5.png",
           "rating": 4.6,
           "stock": 6,
-          "description": "Premium ultrabook with AMOLED display and fast multitasking."
+          "description": "Premium ultrabook with AMOLED display and fast multitasking.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "L-009",
@@ -110,7 +182,16 @@
           "image": "./laptopImages/lap1.png",
           "rating": 4.3,
           "stock": 25,
-          "description": "Slim laptop with 2K display and great build quality."
+          "description": "Slim laptop with 2K display and great build quality.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "L-010",
@@ -122,7 +203,16 @@
           "image": "./laptopImages/lap3.png",
           "rating": 4.0,
           "stock": 30,
-          "description": "Affordable laptop with metal body and smooth performance."
+          "description": "Affordable laptop with metal body and smooth performance.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "L-011",
@@ -134,7 +224,16 @@
           "image": "./laptopImages/lap1.png",
           "rating": 4.5,
           "stock": 12,
-          "description": "Powerful gaming laptop with i5 CPU, RTX 3050 GPU, and 144Hz display."
+          "description": "Powerful gaming laptop with i5 CPU, RTX 3050 GPU, and 144Hz display.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "L-012",
@@ -146,7 +245,16 @@
           "image": "./laptopImages/lap2.png",
           "rating": 4.8,
           "stock": 5,
-          "description": "Lightweight laptop with M2 chip, 18-hour battery life, and premium build."
+          "description": "Lightweight laptop with M2 chip, 18-hour battery life, and premium build.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         }
       ]
     },
@@ -165,7 +273,16 @@
           "image": "./mobileImages/mob1.png",
           "rating": 4.7,
           "stock": 15,
-          "description": "Powerful smartphone with A15 chip and excellent camera."
+          "description": "Powerful smartphone with A15 chip and excellent camera.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "M-002",
@@ -177,7 +294,16 @@
           "image": "./mobileImages/mob2.png",
           "rating": 4.8,
           "stock": 10,
-          "description": "Flagship device with Snapdragon 8 Gen 2 processor."
+          "description": "Flagship device with Snapdragon 8 Gen 2 processor.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "M-003",
@@ -189,7 +315,16 @@
           "image": "./mobileImages/mob3.png",
           "rating": 4.6,
           "stock": 20,
-          "description": "Premium midrange phone with fast charging and AMOLED display."
+          "description": "Premium midrange phone with fast charging and AMOLED display.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "M-004",
@@ -201,7 +336,16 @@
           "image": "./mobileImages/mob4.png",
           "rating": 4.4,
           "stock": 18,
-          "description": "Fast performance with 150W charging."
+          "description": "Fast performance with 150W charging.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "M-005",
@@ -213,7 +357,16 @@
           "image": "./mobileImages/mob5.png",
           "rating": 4.3,
           "stock": 25,
-          "description": "Value-for-money phone with 200MP camera."
+          "description": "Value-for-money phone with 200MP camera.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "M-006",
@@ -225,7 +378,16 @@
           "image": "./mobileImages/mob2.png",
           "rating": 4.4,
           "stock": 22,
-          "description": "Stylish phone with great selfie camera."
+          "description": "Stylish phone with great selfie camera.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "M-007",
@@ -237,7 +399,16 @@
           "image": "./mobileImages/mob4.png",
           "rating": 4.3,
           "stock": 19,
-          "description": "Premium curved display and portrait camera."
+          "description": "Premium curved display and portrait camera.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "M-008",
@@ -249,7 +420,16 @@
           "image": "./mobileImages/mob1.png",
           "rating": 4.5,
           "stock": 28,
-          "description": "High performance Dimensity CPU at an affordable price."
+          "description": "High performance Dimensity CPU at an affordable price.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "M-009",
@@ -261,7 +441,16 @@
           "image": "./mobileImages/mob5.png",
           "rating": 4.6,
           "stock": 12,
-          "description": "Unique transparent design with Glyph lighting."
+          "description": "Unique transparent design with Glyph lighting.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "M-010",
@@ -273,7 +462,16 @@
           "image": "./mobileImages/mob2.png",
           "rating": 4.4,
           "stock": 26,
-          "description": "Slim and lightweight smartphone with curved display."
+          "description": "Slim and lightweight smartphone with curved display.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "M-011",
@@ -285,7 +483,16 @@
           "image": "./mobileImages/mob3.png",
           "rating": 4.6,
           "stock": 20,
-          "description": "Premium midrange phone with fast charging and AMOLED display."
+          "description": "Premium midrange phone with fast charging and AMOLED display.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "M-012",
@@ -297,7 +504,16 @@
           "image": "./mobileImages/mob4.png",
           "rating": 4.4,
           "stock": 18,
-          "description": "Fast performance with 150W charging."
+          "description": "Fast performance with 150W charging.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         }
       ]
     },
@@ -316,7 +532,16 @@
           "image": "./otherImages/acharger.png",
           "rating": 4.8,
           "stock": 30,
-          "description": "Fast Type-C charging adapter for iPhones."
+          "description": "Fast Type-C charging adapter for iPhones.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "A-002",
@@ -328,7 +553,16 @@
           "image": "./otherImages/airpod.png",
           "rating": 4.3,
           "stock": 40,
-          "description": "Wireless earbuds with long battery backup."
+          "description": "Wireless earbuds with long battery backup.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "A-003",
@@ -340,7 +574,16 @@
           "image": "./otherImages/scharger.png",
           "rating": 4.6,
           "stock": 35,
-          "description": "Fast charger for all Samsung smartphones."
+          "description": "Fast charger for all Samsung smartphones.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "A-004",
@@ -352,7 +595,16 @@
           "image": "./otherImages/headphone.png",
           "rating": 4.9,
           "stock": 6,
-          "description": "Industry-leading noise cancelling headphones."
+          "description": "Industry-leading noise cancelling headphones.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "A-005",
@@ -364,7 +616,16 @@
           "image": "./otherImages/pendrive.png",
           "rating": 4.2,
           "stock": 50,
-          "description": "High-speed USB 3.0 pendrive with compact design."
+          "description": "High-speed USB 3.0 pendrive with compact design.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "A-006",
@@ -376,7 +637,16 @@
           "image": "./otherImages/mouse.png",
           "rating": 4.4,
           "stock": 32,
-          "description": "Silent wireless mouse with long battery life."
+          "description": "Silent wireless mouse with long battery life.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "A-007",
@@ -388,7 +658,16 @@
           "image": "./otherImages/keyboard.png",
           "rating": 4.1,
           "stock": 34,
-          "description": "Durable keyboard for home and office use."
+          "description": "Durable keyboard for home and office use.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "A-008",
@@ -400,7 +679,16 @@
           "image": "./otherImages/powerbank.png",
           "rating": 4.7,
           "stock": 22,
-          "description": "High-capacity powerbank with fast charging."
+          "description": "High-capacity powerbank with fast charging.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "A-009",
@@ -412,7 +700,16 @@
           "image": "./otherImages/speaker.png",
           "rating": 4.6,
           "stock": 18,
-          "description": "Portable Bluetooth speaker with punchy sound."
+          "description": "Portable Bluetooth speaker with punchy sound.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         },
         {
           "id": "A-010",
@@ -424,7 +721,16 @@
           "image": "./otherImages/datacable.png",
           "rating": 4.3,
           "stock": 60,
-          "description": "Durable fast charging cable for Android devices."
+          "description": "Durable fast charging cable for Android devices.",
+          "specs": {
+            "processor": "Intel Core i5 11th Gen",
+            "graphics": "NVIDIA RTX 3050 4GB",
+            "display": "15.6\" FHD, 144Hz",
+            "ram": "16GB DDR4",
+            "storage": "512GB SSD",
+            "battery": "48Wh",
+            "weight": "2.3 kg"
+          }
         }
       ]
     }

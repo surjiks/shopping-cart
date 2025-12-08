@@ -27,6 +27,7 @@ const ProductCard = ({ item }) => {
           <p className="line-through text-[14px] text-gray-500">{item.price}</p>
           <p className="text-[13px] text-green-700 font-semibold">{item.discount}% Off</p>
         </div>
+        {item.stock === 0 && <p className="text-sm text-red-500 text-center">* Out of stock</p>}
       </div>
     </div>
   );
