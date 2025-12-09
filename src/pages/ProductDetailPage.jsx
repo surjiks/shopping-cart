@@ -5,6 +5,7 @@ import { FaBolt, FaShoppingCart } from "react-icons/fa";
 import Stars from "../components/common/Stars";
 import { CartContext } from "../context/CartContext";
 import toast from "react-hot-toast";
+import Breadcrumbs from "../components/common/Breadcrumbs";
 
 const ProductDetailPage = () => {
   const { id } = useParams();
@@ -29,7 +30,8 @@ const ProductDetailPage = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-4 bg-white/70 min-h-screen flex gap-10">
+    
+    <div className="container mx-auto px-4 py-4 bg-white/70 min-h-screen flex md:flex-row flex-col gap-10">
       <div className="mt-5 h-[550px] relative">
         <img
           src={`/${selectedProduct.image}`}
@@ -56,6 +58,7 @@ const ProductDetailPage = () => {
       </div>
 
       <div className="mt-10 space-y-2">
+        <Breadcrumbs items={[{ label: selectedProduct.name }]}/>
         <p>{selectedProduct.brand}</p>
         <p className="text-2xl">{selectedProduct.name}</p>
         <div className="flex items-center gap-2">
@@ -104,7 +107,7 @@ const ProductDetailPage = () => {
           <h1 className="text-2xl font-bold">Description</h1>
           <p>{selectedProduct.description}</p>
         </div>
-        <div className="w-xl mt-5">
+        <div className="md:w-xl mt-5">
           <h1 className="text-2xl font-bold">Specification</h1>
           {Object.entries(selectedProduct.specs).map(([key, value]) => (
             <div key={key} className="flex gap-5 space-y-5">

@@ -29,7 +29,7 @@ export const CartProvider = ({ children }) => {
         () => (
           setLoading(false), alert("Product Added To Cart !"), navigate("/cart")
         ),
-        2000
+        1000
       );
     }
   };

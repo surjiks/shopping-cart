@@ -9,7 +9,7 @@ const CartCard = ({ items }) => {
     removeFromCart(id);
   };
   return (
-    <div className="flex items-center border-b border-gray-300 p-3">
+    <div className="flex md:flex-row flex-col items-center border-b border-gray-300 p-3">
       <img src={items.image} alt="" className="w-44 h-40 object-cover p-3" />
       <div className="px-6 space-y-3 flex-1">
         <p className=" text-lg">{items.name}</p>

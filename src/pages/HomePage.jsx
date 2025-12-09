@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import ProductCard from "../components/product/ProductCard";
 import Search from "../components/common/Search";
 import { DataContext } from "../context/DataContext";
+import Breadcrumbs from "../components/common/Breadcrumbs";
 
 const HomePage = () => {
   const { product } = useContext(DataContext);
