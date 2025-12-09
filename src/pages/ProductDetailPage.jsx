@@ -9,7 +9,7 @@ import toast from "react-hot-toast";
 const ProductDetailPage = () => {
   const { id } = useParams();
   const { product } = useContext(DataContext);
-  const {addToCart,loading} = useContext(CartContext);
+  const { addToCart, loading } = useContext(CartContext);
 
   if (!product || !product.categories) {
     return <p className="text-center mt-20">Loading...</p>;
@@ -21,31 +21,38 @@ const ProductDetailPage = () => {
 
   console.log(selectedProduct);
   const handleCart = () => {
-    if(selectedProduct.stock === 0){
-      toast.error("Out Of Stock")
-      
-    }else{
-      addToCart(selectedProduct)
+    if (selectedProduct.stock === 0) {
+      toast.error("Out Of Stock");
+    } else {
+      addToCart(selectedProduct);
     }
-  }
+  };
 
   return (
     <div className="container mx-auto px-4 py-4 bg-white/70 min-h-screen flex gap-10">
-
       <div className="mt-5 h-[550px] relative">
         <img
           src={`/${selectedProduct.image}`}
           alt="product image"
           className="w-lg border border-gray-200"
         />
-        <div className="text-white text-base font-semibold flex gap-2 absolute bottom-0 left-0 w-full">
-          <button onClick={()=>handleCart(selectedProduct)} className="bg-[#ff9f00] flex-1 flex items-center justify-center gap-2 p-4">
-            <FaShoppingCart /> {loading?<p>Adding To Cart...</p>:<p>ADD TO CART</p>}
-          </button>
-          <button className="bg-[#fb641b] flex-1 flex items-center justify-center gap-2 p-4">
-            <FaBolt /> BUY NOW
-          </button>
-        </div>
+
+        {selectedProduct.stock < 1 ? (
+          <p className="text-xl text-red-500 font-bold text-center">* Out of Stock</p>
+        ) : (
+          <div className="text-white text-base font-semibold flex gap-2 absolute bottom-0 left-0 w-full">
+            <button
+              onClick={() => handleCart(selectedProduct)}
+              className="bg-[#ff9f00] flex-1 flex items-center justify-center gap-2 p-4"
+            >
+              <FaShoppingCart />{" "}
+              {loading ? <p>Adding To Cart...</p> : <p>ADD TO CART</p>}
+            </button>
+            <button className="bg-[#fb641b] flex-1 flex items-center justify-center gap-2 p-4">
+              <FaBolt /> BUY NOW
+            </button>
+          </div>
+        )}
       </div>
 
       <div className="mt-10 space-y-2">
