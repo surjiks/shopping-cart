@@ -8,7 +8,6 @@ import Swal from "sweetalert2";
 const Cart = () => {
   const navigate = useNavigate();
   const { cart ,clearCart} = useContext(CartContext);
-  console.log(cart);
 
   const totalOriginalPrice = cart.reduce(
     (acc, item) => acc + item.price * item.qty,

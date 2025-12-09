@@ -20,7 +20,6 @@ const ProductDetailPage = () => {
     .flatMap((cat) => cat.products) // merge all product arrays
     .find((item) => item.id == id); // find product by id
 
-  console.log(selectedProduct);
   const handleCart = () => {
     if (selectedProduct.stock === 0) {
       toast.error("Out Of Stock");
