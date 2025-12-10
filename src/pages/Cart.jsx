@@ -56,8 +56,8 @@ const Cart = () => {
   }
 
   return (
-    <div className="container mx-auto px-4 py-10 flex lg:flex-row flex-col gap-5 ">
-      <div className="md:w-4xl bg-white">
+    <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 xl:grid-cols-3 gap-5">
+      <div className="col-span-2 bg-white">
         {cart.map((item, key) => (
           <div key={key} className="">
             <CartCard items={item} />
@@ -73,7 +73,7 @@ const Cart = () => {
         </div>
       </div>
 
-      <div className="bg-white md:w-md lg:fixed right-[340px]">
+      <div className="bg-white sticky top-16 h-fit col-span-1">
         <h1 className="text-gray-500 p-4 font-semibold border-b border-gray-300">
           PRICE DETAILS
         </h1>
