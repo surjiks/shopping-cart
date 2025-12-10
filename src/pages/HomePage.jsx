@@ -42,7 +42,7 @@ const HomePage = () => {
             cat.products.length > 0 && (
               <div key={cat.id} className="p-5">
                 <h2 className="text-2xl font-bold">{cat.name}</h2>
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-10 mt-5">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 mt-5">
                   {cat.products.map((item) => (
                     <ProductCard key={item.id} item={item} />
                   ))}

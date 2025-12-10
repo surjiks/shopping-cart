@@ -6,7 +6,7 @@ const ProductCard = ({ item }) => {
   const navigate = useNavigate()
   return (
     <div onClick={()=>{navigate(`/product/${item.id}`)}} className="flex flex-col items-center justify-center bg-white hover:cursor-pointer hover:scale-105 hover:shadow-lg rounded-lg transition-all duration-300 hover:-translate-y-1">
-      <img src={item.image} alt="" className="w-full h-48 " />
+      <img src={item.image} alt="" className="w-[90%] h-48 p-3" />
       <div className="p-3 space-y-1">
         <p className="text-center text-gray-700">{item.name}</p>
         <p>
